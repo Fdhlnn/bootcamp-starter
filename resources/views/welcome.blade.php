@@ -10,12 +10,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white h-screen flex flex-col items-center justify-center">
-   
 
-    
+
+
     <h1 class="text-3xl font-bold text-center mb-6">DAFTAR</h1>
 
-    
+
     <div class="w-4/5">
         <form>
             <div class="mb-4 margin-center>
@@ -30,10 +30,13 @@
                 <label class="block text-sm font-medium text-gray-700">Password</label>
                 <input type="password" placeholder="Masukkan Kata sandi" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring focus:border-gray-500">
             </div>
-            <button type="submit" class="w-full bg-black text-white py-2 rounded-md font-bold">Lanjut</button>
+            <button type="submit" class="w-full bg-black text-white py-2 rounded-md font-bold"><a href="/some-page">
+                Lanjut
+            </a>
+            </button>
         </form>
 
-        
+
         <div class="flex items-center my-4">
             <div class="flex-grow border-t border-gray-300"></div>
             <span class="mx-4 text-gray-500">Atau</span>
