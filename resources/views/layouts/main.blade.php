@@ -20,7 +20,7 @@
         <div class="min-h-screen flex flex-col">
             @include('includes.navigation')
 
-            <main class="w-full px-6 mt-6">
+            <main class="w-full">
                 @yield('section')
             </main>
 
